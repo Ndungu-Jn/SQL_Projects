@@ -19,3 +19,4 @@ WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 SELECT * 
 FROM job_postings_fact
 LIMIT 100;
+
